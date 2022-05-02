@@ -1,0 +1,42 @@
+
+.container {
+  border: 1px solid #ddd;
+  min-width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.button {
+  margin: 10px 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+.operator {
+background-color: darkorange;
+border: 0;
+}
+
+.equal-sign {
+  background-color: darkturquoise;
+border: 0;
+}
+
+.clear {
+  background-color: deeppink;
+  border: 0;
+  padding: 3px 30px;
+  margin-left: 10px;
+}
+
+table {
+  margin-left: 18px;
+}
